@@ -286,26 +286,35 @@ td, th {
             <a class="btn btn-lg btn-primary" href="Qmodel_CV_info.pdf" role="button">Côte d'Ivoire</a>
             <a class="btn btn-lg btn-primary" href="Qmodel_Sudan_info.pdf" role="button">Sudan</a>
             <a class="btn btn-lg btn-primary" href="Qmodel_Nigeria_info.pdf" role="button">Nigeria</a>
+            <a class="btn btn-lg btn-primary" href="Qmodel_SA_info.pdf" role = "button"> South Africa </a>
+
         </div>
   
       <h2 class="my-3">Oceania</h2>
         <div class="text-center">
             <a class="btn btn-lg btn-primary" href="Qmodel_Australia_info.pdf" role="button">Australia</a>
         </div>
-
-
   
+  <h2 class="my-3">Clickable World Map </h2>
+  <p> The regions for which our code is applied currently is shown in the above boxes. Alternatively, these regions can also be clicked on the map below to visualize the results.
+        </p>
+
+<iframe src="https://createaclickablemap.com/map.php?id=94408&maplocation=world&online=true" width="900" height="525" style="border: none;"></iframe>
+<script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
+  
+   <!--
   <iframe src="https://createaclickablemap.com/map.php?&id=94358&maplocation=false&online=true" width="900" height="525" style="border: none;"></iframe>
 <script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
-
+-->
 
         <h2 class="my-3">Code and Data</h2>
-            <p> The basic code is uploaded <a href=" https://github.com/RajDandekar/COVID-19-ML-Quarantine-Control-Model"> here</a>. The code uses  the method of universal ODE's developed <a href=" https://arxiv.org/pdf/2001.04385.pdf"> here</a>. </p>
+            <p> The basic code is uploaded <a href="https://github.com/RajDandekar/MIT-Global-COVID-Modelling-Project-1"> here</a>. The code uses  the method of universal ODE's developed <a href=" https://arxiv.org/pdf/2001.04385.pdf"> here</a>. </p>
              Data is collected from <a href=" https://github.com/CSSEGISandData/COVID-19"> Center for Systems Science and Engineering (CSSE) at Johns Hopkins University</a>.
           
-    <h2 class="my-3">Additional Notes</h2>
-            <p> For the United States, since the recovered data is not as reliable as the number of deaths, the R in the SIR model is the number of dead people who can no longer transmit infection. For all other regions, R is the number of "recovered + dead" people, who can no longer transmit infection. </p>
-            
+ <h2 class="my-3">Preprint</h2>
+            <p> The April version of our study can be found<a href="https://www.medrxiv.org/content/10.1101/2020.04.03.20052084v1"> here</a>. 
+          
+             
     <h2 class="my-3">Media Coverage</h2>
             <ul>
             <li><a href="http://news.mit.edu/2020/new-model-quantifies-impact-quarantine-measures-covid-19-spread-0416"> MIT News article</a></li>
